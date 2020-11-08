@@ -1,0 +1,58 @@
+.Button {
+  align-items: center;
+  background: var(--tertiaryBackground);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 28px;
+  height: 80px;
+  justify-content: center;
+  width: 80px;
+  transition: filter 0.3s ease-in;
+}
+.scientific{
+  display: none;
+}
+
+.Button:active,
+.Button:focus,
+.Button:hover {
+  filter: brightness(120%);
+}
+
+.Button.zero {
+  width: 174px;
+  grid-column: 1 / span 2;
+  border-radius: 57.5px;
+  /* position: relative; */
+  justify-content: flex-start;
+  padding-left: 43px;
+}
+
+.Button.function {
+  color: black;
+  background: var(--primaryBackground);
+}
+
+.Button.operator {
+  background: var(--secondaryBackground);
+}
+
+
+@media screen and (min-width: 768px){
+  .Button {
+    border-radius: 30px;
+    font-size: 14px;
+    height: 45px;
+    width: 60px;
+  }
+  .Button.zero {
+    width: 130px;
+    grid-column: 7 / span 2;
+    border-radius: 57.5px;
+    padding-left: 23px;
+  }
+  .scientific{
+    display: flex;
+  }
+}
