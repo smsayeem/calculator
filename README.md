@@ -1,4 +1,8 @@
 # online Calculator Project
+ 1. Simple calculator with standard and scientific mode.
+ 2. Smaller screen displays the standard calculator and larger screens(iPad and larger) enables the additional scientific mode.
+ 3. Implementation for the Standard calculator has been completed. Scientific calculator mode hasn't been implemented yet.
+
 
   ## Local Development
 
